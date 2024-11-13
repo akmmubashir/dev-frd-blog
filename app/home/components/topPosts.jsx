@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const TopPosts = () => {
   return (
-    <div className="px-[100px] max-lg:px-[80px] max-md:px-[20px] grid grid-cols-12 gap-[40px] max-sm:gap-[30px_0]">
+    <div className="px-[100px] max-lg:px-[80px] max-md:px-[20px] grid grid-cols-12 gap-[40px] max-md:gap-[20px_0]">
       {postsLists.map((item) => (
         <Link
           href={`/${item?.category

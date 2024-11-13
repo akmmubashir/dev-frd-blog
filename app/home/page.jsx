@@ -13,7 +13,7 @@ const HomePage = () => {
       <Header />
       <Navbar />
       <div className="max-w-[1440px] mx-auto">
-        <div className="p-[60px_100px] max-lg:p-[60px_80px] max-md:p-[30px_20px] flex flex-col gap-[30px]">
+        <div className="p-[60px_100px] max-lg:p-[60px_80px] max-md:p-[30px_20px] flex flex-col gap-[30px] max-md:gap-[20px_0]">
           <Search />
           <OurCategories />
         </div>
