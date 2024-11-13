@@ -4,7 +4,7 @@ const ContentTile = ({ data }) => {
   const paragraphs = data?.content.split("\n\n");
   return (
     <div id={"#" + data?.title}>
-      <h2 className="text-[26px] max-md:text-[18px] font-medium mb-[10px]">
+      <h2 className="text-[26px] max-md:text-[18px] font-medium mb-[10px] text-black">
         {data?.title}
       </h2>
       <div className="flex flex-col gap-[10px]">

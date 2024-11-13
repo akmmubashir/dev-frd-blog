@@ -16,7 +16,7 @@ const SideBar = ({ category, blog, currentPost }) => {
               <input
                 type="text"
                 placeholder="Find articles....."
-                className="bg-transparent outline-none placeholder:text-black text-[14px] w-full"
+                className="bg-transparent outline-none placeholder:text-black text-black text-[14px] w-full"
               />
             </div>
             <button className="bg-[#001F4E] hover:bg-black rounded-[30px] text-[14px] font-medium p-[8px_20px] text-white">
