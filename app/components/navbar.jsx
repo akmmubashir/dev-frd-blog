@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="bg-white p-[30px_60px] max-sm:p-[20px] flex items-center border-b border-[#c9c9c9] drop-shadow-xl relative z-10">
       <div>
-        <Link prefetch href={"https://dev.findrentdrive.com"} className="logo">
+        <Link prefetch href={"https://dev-frd.vercel.app"} className="logo">
           <Logo
             className={"w-[220px] max-md:w-[180px] h-fit"}
             color={"fill-[#000]"}
